@@ -43,6 +43,8 @@ Navigate to the models directory and create a new directory called Dog_breeds:
    $ cd models
    $ mkdir Dog_breeds
 ```
+The data directory is where you would import your image files to be able to get the images
+
 Upload the model_best.pth.tar file to the Dog_breeds directory in the models directory and upload the Dog_breeds folder to the data directory.
 Navigate to the jetson-inference directory and run the docker:
 ```
