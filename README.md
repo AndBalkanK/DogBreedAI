@@ -72,5 +72,6 @@ Run this command to see how it operates on an image from the Dog_breeds test fol
    $ imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/test/golden_retriever/n02099601_7037.jpg dog.jpg
 ```
 Open the new image in VSCode to see how the model works or scroll up to see how the model classified the image if you are using a regular terminal.
+
 To run the model on a different image, change this section of the code: /dog breed/image name.jpg save.jpg
 The first 'dog breed' refers to which set of images in the test folder you are choosing from. 'image name.jpg' is the image you are classifying in the set of images you chose. Finally, 'save.jpg' is the name of the image that will be exported once the model finishes classifying it.
