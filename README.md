@@ -6,7 +6,7 @@ This re-trained ResNet-18 model was created on Jetson Nano and trained on a data
 
 # Running This Project
 Make sure that both the Jetson Inference library and Python3 are installed on your Jetson Nano.
-Download the resnet18.onnx and model_best.pth.tar. Links to the models: (https://drive.google.com/drive/u/0/folders/1gJKHu09UoMbe0EvLXrBIfYXrUDE_lXbs)
+Download the resnet18.onnx and model_best.pth.tar. Links to the models: (https://colab.research.google.com/drive/122jLDEXT8WF9Mf_OC0AIzlXeF56o6GFg)
 Download the data folder (images). Link to data: (https://drive.google.com/drive/folders/1kZluwzSqHIF3zsrDVIAJJBa2GEeEgW_0?usp=drive_link)
 Open the terminal and navigate to the classification directory:
 ```
